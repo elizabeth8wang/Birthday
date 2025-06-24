@@ -1,0 +1,53 @@
+#topMargin {
+  margin-top: 20%;
+}
+
+#score{
+  font-family: monospace;
+  margin-left: 30%;
+}
+
+#game {
+  width: 600px;
+  height: 200px;
+  background-color: beige;
+  margin-left: 30%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Optional: style your personal image separately */
+#me {
+  margin: 3% 0% 0% 30%;
+}
+
+/* Heart image style */
+.heart {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#done-button{
+  margin-top: 5px;
+  font-family: monospace;
+  font-size: 12px;
+  background-color: beige;
+  padding: 5px 8px 5px 8px;
+  border-width: thin;
+}
+
+#won {
+  text-align: center;
+  margin-top: 7%;
+}
+
+#won p {
+  font-family: monospace;
+  margin: 0;
+  padding: 5px;
+}
+  
+
+  

@@ -1,0 +1,96 @@
+#topMargin{
+  margin-top: 20%;
+}
+
+#game {
+    width: 600px;
+    height: 200px;
+    background-color: beige;
+    margin-left: 30%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+#ire {
+  width: 80px;
+  height: 120px ;
+  background-image: url("assets/stand.png");
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  left: 20px;  
+}
+
+.jump {
+  animation: jump 0.5s ease-out;
+}
+
+@keyframes jump {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-70px); }
+  100% { transform: translateY(0); background-image: url("assets/stand.png"); }
+}
+
+#basketball {
+  width: 40px;
+  height: 40px;
+  background-image: url("assets/ball.png");
+  background-size: cover;
+  position: absolute;
+  bottom: 0px;
+  left: 600px;
+  animation: block 1.5s infinite linear;
+}
+
+@keyframes block {
+  0%   { left: 580px; }
+  100% { left: -20px; }
+}
+
+#score{
+  font-family: monospace;
+  margin-left: 30%;
+}
+
+#failed {
+  text-align: center;
+  margin-top: 7%;
+}
+
+#failed p {
+  font-family: monospace;
+  margin: 0;
+  padding: 5px;
+}
+
+
+#replay-button{
+  margin-top: 5px;
+  font-family: monospace;
+  font-size: 12px;
+  background-color: beige;
+  padding: 5px 8px 5px 8px;
+  border-width: thin;
+}
+
+#won {
+  text-align: center;
+  margin-top: 7%;
+}
+
+#won p {
+  font-family: monospace;
+  margin: 0;
+  padding: 5px;
+}
+  
+
+#done-button{
+  margin-top: 5px;
+  font-family: monospace;
+  font-size: 12px;
+  background-color: beige;
+  padding: 5px 8px 5px 8px;
+  border-width: thin;
+}
+  

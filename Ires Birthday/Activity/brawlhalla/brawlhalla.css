@@ -1,0 +1,96 @@
+#topMargin {
+    margin-top: 20%;
+    display: flex;
+    align-items: center;    /* align items vertically */
+    justify-content: flex-start; /* keep them to the left */
+    gap: 20px;              /* space between health bar and timer */
+  }
+  
+  #healthBar{
+    margin-left: 29%;
+    margin-bottom: 1%;
+  }
+
+  #timer {
+    font-family: monospace;
+  }
+  
+  #game {
+    width: 600px;
+    height: 200px;
+    background-color: beige;
+    margin-left: 30%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .click-effect {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    animation: fadeOut 0.5s ease-out forwards;
+    z-index: 1000;
+  }
+  
+  @keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; transform: translate(-50%, -50%) scale(1.5); }
+  }
+  
+  /* Optional: style your personal image separately */
+  #badGuy {
+    margin: 4% 0% 0% 35%;
+  }
+  
+  /* Heart image style */
+  .heart {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  #done-button{
+    margin-top: 5px;
+    font-family: monospace;
+    font-size: 12px;
+    background-color: beige;
+    padding: 5px 8px 5px 8px;
+    border-width: thin;
+  }
+  
+  #won {
+    text-align: center;
+    margin-top: 7%;
+  }
+  
+  #won p {
+    font-family: monospace;
+    margin: 0;
+    padding: 5px;
+  }
+
+  #failed {
+    text-align: center;
+    margin-top: 7%;
+  }
+  
+  #failed p {
+    font-family: monospace;
+    margin: 0;
+    padding: 5px;
+  }
+
+  #replay-button{
+    margin-top: 5px;
+    font-family: monospace;
+    font-size: 12px;
+    background-color: beige;
+    padding: 5px 8px 5px 8px;
+    border-width: thin;
+  }
+    
+  
+    

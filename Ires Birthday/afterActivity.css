@@ -1,0 +1,134 @@
+#content{
+    width: 600px;
+    height: 200px;
+    background-color: beige;
+    margin-top: 20%;
+    margin-left: 30%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-family: monospace;
+}
+
+img{
+    margin-top: 8%;
+}
+
+.description{
+    margin: 4% 3% 2% 4%;
+    font-size: 12px;
+    display: block;
+    text-align: left;
+}
+
+.choice {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* ensures left alignment */
+  margin-bottom: 8px; /* spacing between choices */
+  border-width: thin;
+}
+
+.choice input[type="radio"] {
+  margin-right: 5px;
+  margin-left: 4%;
+  accent-color: black;
+}
+
+.choice label {
+  font-size: 12px;
+  text-align: left;
+  font-family: monospace;
+}
+
+
+#next-button, #almost-button, #play-button{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 2% 0 0 4%;
+  font-family: monospace;
+  font-size: 12px;
+  background-color: beige;
+  padding: 5px 8px 5px 8px;
+  border-width: thin;
+}
+
+
+
+#final-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 2% 0 0 4%;
+  font-family: monospace;
+  font-size: 12px;
+  background-color: beige;
+  padding: 5px 8px 5px 8px;
+  border-width: thin;
+}
+
+.birthday {
+  font-family: monospace;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+@keyframes popIn {
+  from { transform: scale(0.4); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+#fun {
+  display: flex;
+  flex-direction: column;    /* Stack items vertically */
+  align-items: flex-start;   /* Align everything to the left */
+}
+
+img #cake{
+  margin-left: 4%;
+}
+
+.end{
+  font-weight: bold;
+  margin-bottom: 4%;
+}
+
+.finalStats {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  margin-left: 4%;
+}
+
+#note {
+  font-style: italic;
+  font-size: 12px;
+  margin: 0; /* remove default spacing */
+  padding-top: 5px;
+}
+
+.finalStats p {
+  margin: 2px 2 5px; /* Tight spacing between lines */
+  font-size: 12px;
+  text-align: left;
+}
+
+.finalStats p:first-child {
+  margin-top: 4%;
+  font-weight: bold;
+  padding-bottom: 2%;
+}
+
+#replay-button{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 2% 0 0 0;
+  font-family: monospace;
+  font-size: 12px;
+  background-color: beige;
+  padding: 5px 8px 5px 8px;
+  border-width: thin;
+}
